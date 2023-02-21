@@ -8,3 +8,23 @@ function dynamic(){
     div.append(h1);
     mainDiv.append(div);
 }
+
+
+function popularstorage(){
+    localStorage.setItem('Name','Avinash');
+    localStorage.setItem('age', '24');
+}
+
+function display(){
+   document.getElementById("demo").innerHTML=localStorage.getItem("Name");
+}
+
+
+
+// // function popularstorage(){
+// //     localStorage.removeItem('age');
+// // }
+
+// function popularstorage(){
+//     localStorage.clear();
+// }
