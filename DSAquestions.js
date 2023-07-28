@@ -267,7 +267,7 @@
 
 // var num = [1,2,3,4,5,6,7,8,9]
 // var target = 3
- // var count = 0;
+// var count = 0;
 
 // for(var i =0; i< num.length; i++){
 //     if(num[i] > target){
@@ -369,18 +369,18 @@
 
 //     for(var i =0; i<arr1.length; i++){
 //         output.push(arr1[i] + arr2[i]);
-      
+
 //     }
 //     return output;
 // }
 // console.log(addition(arr1,arr2));
 
 //Write a function that takes an array of integers and returns a new array that contains the elements of the original array in reverse order.
- var a = [1,2,3,4,5,6]
+//  var a = [1,2,3,4,5,6]
 
-for(i=a.length-1; i>=0; i--){
-     console.log(a[i]);
-} 
+// for(i=a.length-1; i>=0; i--){
+//      console.log(a[i]);
+// } 
 
 // Write a function that takes two arrays of integers and returns a new array that contains the elements that appear in both arrays.
 
@@ -395,3 +395,29 @@ for(i=a.length-1; i>=0; i--){
 //         console.log(a[i]);
 //     }
 // }
+
+
+
+
+
+
+// Write a function that takes an array of integers and returns the sum of all the elements in the array.
+
+// let array = [1,2,3,4,5,6]
+// sum = 0;
+// for(let i=0; i < array.length; i++){
+//      sum += array[i];
+// }
+// console.log(sum);
+
+
+
+//  print an array in reverse order
+// let array = [1,2,3,4,5,6,7,8,9];
+// for(let i = array.length-1; i >= 0; i--){
+//      console.log(array[i]);
+// }
+
+
+
+
