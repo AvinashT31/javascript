@@ -400,7 +400,6 @@
 
 
 
-
 // Write a function that takes an array of integers and returns the sum of all the elements in the array.
 
 // let array = [1,2,3,4,5,6]
@@ -417,6 +416,88 @@
 // for(let i = array.length-1; i >= 0; i--){
 //      console.log(array[i]);
 // }
+
+
+// print a number in reverse order
+
+// let a = 123456;
+// let string = a.toString();
+// let reverserstring = '';
+// for(let i=string.length -1; i>=0; i--){
+//     reverserstring += string[i];
+// }
+// console.log(parseInt(reverserstring))
+
+
+// print a string in reverse order
+
+// let a = "hello avinash"
+// let string = a.split("");
+// let reversedString = string.reverse().join('');
+// console.log(reversedString);
+
+
+// find a odd non-prime number in 1 to 100 number
+
+for (let i = 1; i < 100; i++) {
+    if (i % 2 === 1) {
+        let isprime = false;
+        for(j = 3 ; j < Math.sqrt(i); j+=2){
+            if(i % j === 0){
+                isprime = true;
+                break;
+            }
+        }
+        if(!isprime){
+            console.log(i);
+        }
+    }
+}
+
+// find a even number in 1 to 100 number
+
+// for(let i=1; i < 100; i++){
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// }
+
+
+// find a maximum number
+
+// let a = [1, 2, 3, 4, 8, 10, 5, 3]
+// let maxnumber = a[0];
+// for (let i = 0; i < a.length; i++){
+//     if(a[i] > maxnumber){
+//         maxnumber = a[i]
+//     }
+// }console.log(maxnumber);
+
+
+
+// find a minimum number
+
+// let a = [1, 2, 3, 4, 8, 10, 5, 3]
+// minnumber = a[0];
+// for (let i = 0; i < a.length; i++){
+//     if(a[i] < minnumber){
+//         minnumber = a[i];
+//     }
+// }console.log(minnumber);
+
+
+
+// find average of number
+
+// let a = [1, 2, 3, 4, 8, 10, 5, 3]
+// sum = 0;
+// for (let i = 0; i < a.length; i++){
+//     sum += a[i];
+// }
+// let average = sum / a.length;
+// console.log(average);
+
+
 
 
 
