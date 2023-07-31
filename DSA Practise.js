@@ -84,7 +84,9 @@
 // for(let i = 0; i < array1.length; i++){
 //     for(let j = 0; j < array2.length; j++){
 //         if(array1[i] == array2[j]){
-//             newarray.push(array1[i]);
+//             if(!newarray.includes(array1[i])){
+//                 newarray.push(array1[i]);
+//             }        
 //         }
 //     }
 // }console.log(newarray);
@@ -168,13 +170,14 @@
 
 // Q. 16 print a number in reverse
 
-// let number = 12345;
+// let number = 18745;
 // let string = number.toString();
 // let reverse = "";
 // for(let i = string.length - 1 ; i>0; i--){
 //         reverse += string[i];
 // }
 // console.log(parseInt(reverse));
+
 
 
 // Q. 17 print a string in reverse order
