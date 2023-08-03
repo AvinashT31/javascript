@@ -179,7 +179,6 @@
 // console.log(parseInt(reverse));
 
 
-
 // Q. 17 print a string in reverse order
 
 // let string = "i am Avinash";

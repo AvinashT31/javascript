@@ -20,10 +20,10 @@
 
 // Reduce function
 
-let number = [1,2,3,4,5];
-let sum = 0;
-let reducefuntion = number.reduce((inititial, current) => inititial + current, 0);
-console.log(reducefuntion)
+// let number = [1,2,3,4,5];
+// let sum = 0;
+// let reducefuntion = number.reduce((accumulator, currentvalue) => accumulator + currentvalue, 0);
+// console.log(reducefuntion)
 
 
 //using for loop
@@ -60,3 +60,162 @@ console.log(reducefuntion)
 //     }
 // }
 // console.log({ ...person, address: { ...person.address, city: "mumbai" }});
+
+
+// callback function
+
+// 1.  function onefunction(callback) {
+//     console.log("hey Avinash");
+//     callback();
+//     console.log("bye avinash");
+// }
+
+// function secondfunction() {
+//     console.log("hello guys");
+// }
+
+// onefunction(secondfunction)
+
+// 2.
+// function onefunction(callback) {
+//     setTimeout(() => {
+//         console.log("hello avinash");
+//         callback();
+//     }, 3000);
+// }
+
+// function secondfunction(){
+//     console.log("how are you avinash");
+// }
+
+// onefunction(secondfunction);
+
+
+// setInterval function
+
+// setInterval(() => {
+//     console.log("hey guys")
+// }, 2000);
+
+
+// setTimeout function
+
+// setTimeout(() => {
+//     console.log("bye Avinash");
+// }, 2000);
+
+
+// for loop
+// print a array in reverse order
+
+// let array = [1,2,3,4,5];
+// for(let i = array.length - 1; i>=0; i--){
+//     console.log(array[i]);
+// }
+
+// print a number in reverse order
+
+// let array = 123458;
+// let string = array.toString();
+// let stringone = string;
+// reversenumber = "";
+// for(let i = stringone.length - 1; i >= 0; i--){
+//     reversenumber += stringone[i];
+// }
+// console.log(reversenumber);
+
+
+// do while loop
+
+// print a array in reverse order
+// let array = [1, 2, 3, 4, 5];
+// let i = array.length - 1;
+
+// do {
+//     console.log(array[i]);
+//     i--
+// } while (i >= 0)
+
+
+// print a number in reverse order
+// let array = 123458;
+// let string = array.toString();
+// let i = string.length - 1;  
+// let reversenumber = ""
+
+// do {
+//     reversenumber += string[i];
+//     i--
+// } while (i >= 0)
+// console.log(parseInt(reversenumber));
+
+
+// while loop
+
+// print a array in reverse order
+// let array = [1, 2, 3, 4, 5];
+// let i = array.length - 1;
+
+// while(i >= 0){
+//     console.log(array[i]);
+//     i--
+// }
+
+// print a number in reverse order
+// let array = 123458;
+// let string = array.toString();
+// let i = string.length - 1;
+// let reversenumber = "";
+
+// while(i >= 0){
+//     reversenumber += string[i];
+//     i--;
+// }
+// console.log(parseInt(reversenumber));
+
+
+
+// print a number from 1 to 5;
+// let i = 1
+// while (i <= 5) {
+//     console.log(i);
+//     i++
+// }
+
+
+// synchronous code example
+
+// console.log("start");
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+// console.log("end");
+
+
+// asynchronous code example
+
+// console.log("start");
+
+// setTimeout(() => {
+//     console.log("time");
+// }, 1000);
+
+// console.log("end");
+
+
+function outer(){
+    let message = "hello guys"
+    
+    function inner(){
+        console.log(message);
+    }
+    return inner;
+}
+
+const closure = outer();
+closure();
+
+
+
