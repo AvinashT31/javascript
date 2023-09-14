@@ -69,8 +69,8 @@
 // let value = 2;
 // let count = 0
 // for (let i = 0; i < array.length; i++) {
-//     if (array[i] > value){
-//         count ++;
+//     if (array[i] > value) {
+//         count++;
 //     }
 // } console.log(count);
 
@@ -86,7 +86,7 @@
 //         if(array1[i] == array2[j]){
 //             if(!newarray.includes(array1[i])){
 //                 newarray.push(array1[i]);
-//             }        
+//             }
 //         }
 //     }
 // }console.log(newarray);
@@ -110,6 +110,7 @@
 //     cumulativesum.push(currentsum);
 // }
 // console.log(cumulativesum);
+// console.log(currentsum)
 
 
 // Q. 11 Write a function that takes two arrays of integers and returns a new array that contains the sum of both arrays combined.

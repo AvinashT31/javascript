@@ -205,17 +205,58 @@
 // console.log("end");
 
 
-function outer(){
-    let message = "hello guys"
+// function outer(){
+//     let message = "hello guys"
     
-    function inner(){
-        console.log(message);
-    }
-    return inner;
-}
+//     function inner(){
+//         console.log(message);
+//     }
+//     return inner;
+// }
 
-const closure = outer();
-closure();
+// const closure = outer();
+// closure();
+
+
+// bind method
+
+// const person = {
+//     name: "Avinash",
+//     greet: function (){
+//         console.log(`my name is ${this.name}`)
+//     }
+// } 
+// // person.greet()
+// const otherperson = {
+//     name: "avi"
+// }
+
+// const bindfunction = person.greet.bind(otherperson, "hello");
+// bindfunction();
+
+
+// const calculator = {
+//     display : 0,
+//     add : function (value){
+//         this.display += value;
+//     },
+//     sub : function (value){
+//         this.display -= value;
+//     },
+// };
+
+// const calculatedA = {
+//     display : 10,
+// }
+
+// const calculatedB = {
+//     display : 5,
+// }
+
+// const addbindfunction = calculator.add.bind(calculatedA)
+// console.log(calculatedA.display); 
+// addbindfunction();
+
 
 
 
