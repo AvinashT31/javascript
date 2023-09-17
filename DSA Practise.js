@@ -202,6 +202,25 @@
 //     }
 // } console.log(array);
 
+// Q.19 Remove duplicate character from string
+
+// var x = "hello worldd"
+// var result = ""
+
+// for (var i = 0; i < x.length; i++) {
+//     var char = x[i]
+//     // console.log(char);
+
+//     if (result.indexOf(char) === -1) {
+//         result += char;
+//     }
+// }
+// console.log(result)
+
+
+
+
+
 
 
 
